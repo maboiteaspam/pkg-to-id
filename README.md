@@ -1,18 +1,34 @@
 # pkg-to-id
-to write
+Extract project identity from a package json file.
+Use name as project name, then goes though 
+```pkg.repository.url```, ```pkg.author```, 
+```pkg.bugs.url```, ```pkg.homepage```
+
+Until it find a value for project author.
 
 ## Installation
 Run the following commands to download and install the application:
 
 ```sh
-$  clone https://github.com/maboiteaspam/pkg-to-id pkg-to-id
-$ cd pkg-to-id
-$ npm install
+$ npm i pkg-to-id --save
 ```
 
-## Documentation
+## Usage
 
-
+```js
+    
+    var pgkToId = require('');
+    
+    var identity = pkgToId(require('package.json'));
+    
+    console.log(identity);
+    // would print
+    // {
+    //     user: 'maboiteaspam',
+    //     name: 'pkg-to-id'
+    // }
+    
+```
 
 
 ## How to contribute
@@ -26,5 +42,3 @@ $ npm install
 4. Open a pull request, and reference the initial issue in the pull request
    message.
 
-## License
-See the [LICENSE](./LICENSE) file.

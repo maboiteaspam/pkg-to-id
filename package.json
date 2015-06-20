@@ -1,15 +1,13 @@
 {
   "name": "pkg-to-id",
   "version": "0.0.1",
-  "description": "to write",
+  "description": "Extract project identity from pakage json file.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "bin": {},
-  "keywords": [
-    "To",
-    "be",
-    "done"
-  ],
+  "keywords": [],
   "author": "maboiteaspam",
   "license": "WTF",
   "homepage": "https://github.com/maboiteaspam/pkg-to-id#readme",
@@ -17,11 +15,9 @@
     "url": "https://github.com/maboiteaspam/pkg-to-id"
   },
   "bugs": {
-    "url": "https://github.com/maboiteaspam/pkg-to-id"
+    "url": "https://github.com/maboiteaspam/pkg-to-id/issues"
   },
-  "dependencies": {
-    "commander": "^2.8.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "should": "^7.0.1"
   }
