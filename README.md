@@ -17,7 +17,7 @@ $ npm i pkg-to-id --save
 
 ```js
     
-    var pgkToId = require('');
+    var pgkToId = require('pkg-to-id ');
     
     var identity = pkgToId(require('package.json'));
     
